@@ -21,9 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/system/lib/libacdbloader.so:obj/lib/libacdbloader.so \
     vendor/htc/shooter/proprietary/system/lib/libacdbmapper.so:obj/lib/libacdbmapper.so
 
-PRODUCT_PROPERTY_OVERRIDES += \
-     drm.service.enabled=true
-
 PRODUCT_COPY_FILES += \
   vendor/htc/shooter/proprietary/system/bin/3D_calibration:/system/bin/3D_calibration \
   vendor/htc/shooter/proprietary/system/bin/3D_calibration_main:/system/bin/3D_calibration_main \
@@ -50,11 +47,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/shooter/proprietary/system/bin/wimaxDumpLogcat:/system/bin/wimaxDumpLogcat \
   vendor/htc/shooter/proprietary/system/bin/wimaxFactoryReset:/system/bin/wimaxFactoryReset \
   vendor/htc/shooter/proprietary/system/bin/wireless_modem:/system/bin/wireless_modem \
-  vendor/htc/shooter/proprietary/system/etc/permissions/com.google.widevine.software.drm.xml:/system/etc/permissions/com.google.widevine.software.drm.xml \
   vendor/htc/shooter/proprietary/system/etc/wimax/dhcp/wimaxDhcp.conf:/system/etc/wimax/dhcp/wimaxDhcp.conf \
   vendor/htc/shooter/proprietary/system/etc/wimax/sequansd/DefaultTree.xml:/system/etc/wimax/sequansd/DefaultTree.xml \
   vendor/htc/shooter/proprietary/system/etc/wimax/sequansd/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
-  vendor/htc/shooter/proprietary/system/framework/com.google.widevine.software.drm.jar:/system/framework/com.google.widevine.software.drm.jar \
   vendor/htc/shooter/proprietary/system/framework/wimax-api.jar:/system/framework/wimax-api.jar \
   vendor/htc/shooter/proprietary/system/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
   vendor/htc/shooter/proprietary/system/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
@@ -79,7 +74,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/shooter/proprietary/system/lib/libdmtree.so:/system/lib/libdmtree.so \
   vendor/htc/shooter/proprietary/system/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
   vendor/htc/shooter/proprietary/system/lib/libdsutils.so:/system/lib/libdsutils.so \
-  vendor/htc/shooter/proprietary/system/lib/libfrsdk.so:/system/lib/libfrsdk.so \
   vendor/htc/shooter/proprietary/system/lib/libgemini.so:/system/lib/libgemini.so \
   vendor/htc/shooter/proprietary/system/lib/libgemini2.so:/system/lib/libgemini2.so \
   vendor/htc/shooter/proprietary/system/lib/libgsl.so:/system/lib/libgsl.so \
@@ -107,9 +101,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/shooter/proprietary/system/lib/libqmi.so:/system/lib/libqmi.so \
   vendor/htc/shooter/proprietary/system/lib/libqmiservices.so:/system/lib/libqmiservices.so \
   vendor/htc/shooter/proprietary/system/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
-  vendor/htc/shooter/proprietary/system/lib/libWVphoneAPI.so:/system/lib/libWVphoneAPI.so \
-  vendor/htc/shooter/proprietary/system/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
-  vendor/htc/shooter/proprietary/system/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
-  vendor/htc/shooter/proprietary/system/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
-  vendor/htc/shooter/proprietary/system/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
   vendor/htc/shooter/proprietary/system/xbin/wireless_modem:/system/xbin/wireless_modem
